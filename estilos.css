@@ -1,0 +1,45 @@
+header{
+    width: 99%;
+    height: 60px;
+    background-color:#CED4DA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+nav ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#495057;
+}
+nav ul li a:hover{
+    color:darkorange
+}
+.tituloPrincipal{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.imagenPrincipal{
+    border: darkslategray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pieDePagina{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
