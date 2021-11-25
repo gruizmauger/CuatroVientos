@@ -1,11 +1,26 @@
 header{
-    width: 99%;
+    width: 98%;
     height: 60px;
+    position:fixed;
+    top: 5px;
     background-color:#CED4DA;
     border-radius: 5px;
     display: flex;
     align-items: center;
     padding: 5px;
+}
+footer{
+    width: 98%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    background-color:#CED4DA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-style: italic ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav ul{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -30,16 +45,49 @@ nav ul li a:hover{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.imagenPrincipal{
-    border: darkslategray;
-    display: flex;
+.gridPaginaPrincipal{
+    display: grid;
     justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
+    grid-template-areas: 
+        "principal principal principal"
+        "menor1 menor2 menor3";
+    gap: 10px 10px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 220px 120px;
 }
-.pieDePagina{
+#imagenGrande{
+    grid-area: principal;
     text-align: center;
-    font-style: italic;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+#img1{
+    width: 1000px;
+    height: auto;
+    align-self: stretch;
+}
+#imagenChica1{
+    grid-area: menor1;
+    position: overflow;
+    overflow: hidden;
+    border-radius: 8px;
+}
+#imagenChica2{
+    grid-area: menor2;
+    overflow: hidden;
+    border-radius: 8px;
+}
+#imagenChica3{
+    grid-area: menor3;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.img{
+    width: 300px;
+    height: auto;
+}
+.mainDePaginas{
+    position: relative;
+    top: 80px;   
 }
