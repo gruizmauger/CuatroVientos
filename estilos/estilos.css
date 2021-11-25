@@ -1,0 +1,93 @@
+header{
+    width: 98%;
+    height: 60px;
+    position:fixed;
+    top: 5px;
+    background-color:#CED4DA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+footer{
+    width: 98%;
+    height: 30px;
+    position: fixed;
+    bottom: 0px;
+    background-color:#CED4DA;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    font-style: italic ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav ul{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+    justify-content: flex-end;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#495057;
+}
+nav ul li a:hover{
+    color:darkorange
+}
+.tituloPrincipal{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.gridPaginaPrincipal{
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 
+        "principal principal principal"
+        "menor1 menor2 menor3";
+    gap: 10px 10px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 220px 120px;
+}
+#imagenGrande{
+    grid-area: principal;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+#img1{
+    width: 1000px;
+    height: auto;
+    align-self: stretch;
+}
+#imagenChica1{
+    grid-area: menor1;
+    position: overflow;
+    overflow: hidden;
+    border-radius: 8px;
+}
+#imagenChica2{
+    grid-area: menor2;
+    overflow: hidden;
+    border-radius: 8px;
+}
+#imagenChica3{
+    grid-area: menor3;
+    overflow: hidden;
+    border-radius: 8px;
+}
+.img{
+    width: 300px;
+    height: auto;
+}
+.mainDePaginas{
+    position: relative;
+    top: 80px;   
+}
