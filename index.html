@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuatro Vientos</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="./estilos/estilos.css">
 </head>
 <body>
     <header>
@@ -20,11 +20,15 @@
             </ul>
         </nav>
     </header>
-    <main>
+    <main class=mainDePaginas>
         <h1 class=tituloPrincipal>Bienvenidos a Cuatro Vientos</h1>
-        <div>
-            <img class=imagenPrincipal src="../cuatrovientos/multimedia/logoCuatroVientosPNG.png" width="600" height="auto" alt="">
-        </div>
+        <section class=gridPaginaPrincipal>
+            <!--aca va el grid-->
+            <div id=imagenGrande><img id=img1 src="./multimedia/grid1.jpg" ></div>
+            <div id=imagenChica1><img class=img src="./multimedia/grid2.jpg"></div>
+            <div id=imagenChica2><img class=img src="./multimedia/grid3.jpg"></div>
+            <div id=imagenChica3><img class=img src="./multimedia/grid4.jpg"></div>
+        </section>
     </main>
     <footer class=pieDePagina>
         Ayudamos a emprendedores a vender más a través de internet
