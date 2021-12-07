@@ -8,30 +8,39 @@
     <link rel="stylesheet" href="./estilos/estilos.css">
 </head>
 <body>
-    <header>
-            <a href="index.html"><img src="./multimedia/logoCuatroVientosPNG.png" width="80" alt=""  ></a>
+    <div id="plantillaGeneral">
+        <header>
             <nav>
                 <ul>
-                <li><a href="./index.html">Inicio</a></li>
-                <li><a href="./paginas/Nosotros.html">Nosotros</a></li>
-                <li><a href="./paginas/Servicios.html">Nuestros servicios</a></li>
-                <li><a href="./paginas/Clientes.html">Clientes</a></li>
-                <li><a href="./paginas/Contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main class=mainDePaginas>
-        <h1 class=tituloPrincipal>Bienvenidos a Cuatro Vientos</h1>
-        <section class=gridPaginaPrincipal>
-            <!--aca va el grid-->
-            <div id=imagenGrande><img id=img1 src="./multimedia/grid1.jpg" ></div>
-            <div id=imagenChica1><img class=img src="./multimedia/grid2.jpg"></div>
-            <div id=imagenChica2><img class=img src="./multimedia/grid3.jpg"></div>
-            <div id=imagenChica3><img class=img src="./multimedia/grid4.jpg"></div>
+                    <li><img src="./multimedia/logoCuatroVientosHorizontalPNGchico.png" width=150px alt=""></li>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./paginas/Nosotros.html">Nosotros</a></li>
+                    <li><a href="./paginas/Servicios.html">Servicios</a></li>
+                    <li><a href="./paginas/Clientes.html">Clientes</a></li>
+                    <li><a href="./paginas/Contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header> 
+
+        <div id="logoCuatroVientosIndex">
+            <img id=imgLogo src="./multimedia/logoCuatroVientosHorizontalPNG.png" alt="">
+        </div>
+
+        <section id="inicio">
+            <div class="paginaPrincipal">
+                <div class="paginaPrincipalCard1"><img id=imgGeneral src="./multimedia/grid1.jpg" alt=""></div>
+                <div class="paginaPrincipalCard2"><img id=imgGeneral src="./multimedia/grid2.jpg" alt=""></div>
+                <div class="paginaPrincipalCard3"><img id=imgGeneral src="./multimedia/grid3.jpg" alt=""></div>
+                <div class="paginaPrincipalCard4"><img id=imgGeneral src="./multimedia/grid4.jpg" alt=""></div>
+            </div>
         </section>
-    </main>
-    <footer class=pieDePagina>
-        Ayudamos a emprendedores a vender más a través de internet
-    </footer>
+        
+        <aside class="publicidad"></aside>
+
+        <footer> 
+            <p>Ayudamos a emprendedores a vender más a través de internet</p>
+        </footer>
+        
+    </div>
 </body>
 </html>
