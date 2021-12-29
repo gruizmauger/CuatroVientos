@@ -67,6 +67,10 @@ nav ul li a:hover{
 }
 #imgLogo{
     width: 60vw;
+    transition: width 2s;
+}
+#imgLogo:hover{
+    width: 160vh;
 }
 #inicio{
     grid-area: nosotros;
@@ -108,6 +112,7 @@ footer{
     margin-top: 10px;
     margin-bottom: 10px;
     border-radius: 15px;
+    background-image: linear-gradient(to right, yellow, orange);
 }
 .paginaPrincipalCard2{
     width: 200px;
