@@ -412,4 +412,9 @@ h1{
 #nosotros{
     grid-area: nosotros;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#saberMas{
+    background-color: khaki;
+    text-align: center;
 }
