@@ -4,14 +4,14 @@
     grid-template-areas:
         "header header"
         "logo logo"
-        "nosotros publicidad" 
+        "nosotros nosotros" 
         "footer footer";
     grid-template-columns: auto 250px;
     grid-template-rows: 60px 100px 4fr 60px;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
-@media(max-width: 800px){
+/* @media(max-width: 800px){
     #plantillaGeneral{
         grid-template-areas:
             "header header"
@@ -27,14 +27,14 @@
         display: flex;
         flex-direction: column;
     }
-}
+}  */
 header{
     grid-area: header;
     background-color: #ced4da;
     color: #495057;
     display: grid;
     align-content: center;
-    width: 97vw;
+    width: 99vw;
     border-radius: 5px;
 }
 nav ul{
@@ -67,27 +67,30 @@ nav ul li a:hover{
 }
 #imgLogo{
     width: 60vw;
-    transition: width 2s;
+    transition: width 1s;
 }
 #imgLogo:hover{
-    width: 160vh;
+    width: 140vh;
 }
-#inicio{
+.container{
     grid-area: nosotros;
     text-align: center;
 }
-.publicidad{
+#imgIndex{
+    border-radius: 15px;
+}
+/* .publicidad{
     grid-area: publicidad;
     text-align: center;
     background-color: tomato;
     border-radius: 15px;
     height: 250px;
     margin-top: 25px;
-}
+} */
 footer{
     grid-area: footer;
     text-align: left;
-    width: 98%;
+    width: 99%;
     height: 30px;
     position: fixed;
     bottom: 0px;
@@ -342,7 +345,7 @@ h1{
 }
 .serviciosCard1{
     width: 150px;
-    height: 150px;
+    height: 250px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -352,7 +355,7 @@ h1{
 }
 .serviciosCard2{
     width: 150px;
-    height: 150px;
+    height: 250px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -362,7 +365,7 @@ h1{
 }
 .serviciosCard3{
     width: 150px;
-    height: 150px;
+    height: 250px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -372,7 +375,7 @@ h1{
 }
 .serviciosCard4{
     width: 150px;
-    height: 150px;
+    height: 250px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -412,6 +415,7 @@ h1{
 #nosotros{
     grid-area: nosotros;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
 
 }
 #saberMas{
