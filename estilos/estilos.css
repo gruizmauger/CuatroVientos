@@ -347,8 +347,8 @@ h1{
     text-transform: uppercase;
 }
 .serviciosCard1{
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -357,8 +357,8 @@ h1{
     padding: 25px;
 }
 .serviciosCard2{
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -367,8 +367,8 @@ h1{
     padding: 25px;
 }
 .serviciosCard3{
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -377,8 +377,8 @@ h1{
     padding: 25px;
 }
 .serviciosCard4{
-    width: 150px;
-    height: 250px;
+    width: 180px;
+    height: 220px;
     margin: auto;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -422,6 +422,9 @@ h1{
 
 }
 #saberMas{
-    background-color: khaki;
+    background-color: #ff5e5b;
     text-align: center;
+    margin: 50px;
+    padding: 9px;
+    border-radius: 15px;
 }
