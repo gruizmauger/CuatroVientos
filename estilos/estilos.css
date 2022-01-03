@@ -36,6 +36,8 @@ header{
     align-content: center;
     width: 99vw;
     border-radius: 5px;
+    margin-left: 5px;
+    margin-top: 5px;
 }
 nav ul{
     margin: 0;
@@ -89,18 +91,19 @@ nav ul li a:hover{
 } */
 footer{
     grid-area: footer;
-    text-align: left;
+    text-align: center;
     width: 99%;
     height: 30px;
     position: fixed;
     bottom: 0px;
     background-color:#CED4DA;
     border-radius: 5px;
-    display: flex;
+    display: inline;
     align-items: center;
-    padding: 5px;
+    /* padding: 5px; */
     font-style: italic ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5px;
 }
 .paginaPrincipal{
     display: flex;
